@@ -1,0 +1,215 @@
+body{
+    background-color: white;
+    margin: 0;
+}
+.header {
+    /* mã màu HEX: #rrggbb (o => f) */
+    background-color:#f8e1db ;
+    padding: 10px 30px;
+    /* padding: 20px;
+    padding: 10px 30px;
+    padding: 10px 20px 30px 40px; */
+    /* padding-top: 30px;
+    padding-bottom: 20px;
+    padding-right: 30px;
+    padding-left: 30px; */
+    
+}
+
+.header .logo {
+    /* inline ko làm được : width height margin top bottom */
+    display: inline-block;
+    margin-bottom: 10px;
+}
+
+.header .logo img {
+    width: 60px;
+    margin-left: 27px;
+}
+
+.header .navbar a{
+    /* text-decoration: underline;
+    text-decoration: overline;
+    text-decoration: line-through; */
+    text-decoration:  none;
+    color: #000000;
+    margin-right: 30px;
+    margin-left: 30px;
+    font-size: larger;
+}
+.header .navbar a:hover {
+    color:#ff0000;
+}
+.carousel{
+    background-image: url(../img/BG.png);
+    height: 800px;
+    background-repeat: no-repeat;
+    /* background-size: x y; */
+    background-size: cover;
+    /* background-position: x y; */
+    background-position: center center;
+}
+.activity {
+    padding: 80px 0;
+    background-color: #f5efed;
+}
+.activity .title{
+    text-align: center;
+    color:#8d8d8d;
+}
+.activity .main .row .col {
+    float: left;
+    width: 25%;
+    padding: 0% 15px;
+    box-sizing: border-box;
+}
+.activity .main .item{
+    background-color:#ffffff;
+    border-radius:20px ;
+    margin: 20px;
+    text-align: center;
+    height: 490px;
+}
+
+.activity .main .item .thumbnail{
+    position: relative;
+}
+
+.activity .main .item .thumbnail img{
+    width: 80%;
+    margin-top: 30px;
+    border-radius: 20px;
+}
+
+.activity .main .item .thumbnail i{
+    color: #ff0000;
+    font-size: 20px;
+    /*absolute ( có left, right được canh theo thẻ cha ), relative, fixed */
+    position: absolute ;
+    top: 50px;
+    /* left: 20px; */
+    /* bottom: 0; */
+    right: 55px;
+    /* background-color: rgba(r,g,b,a) */
+    background-color: #ffffff;
+    width: 40px;
+    height: 40px;
+    border-radius: 15px;
+    line-height: 40px;
+    opacity: 0.6;
+}
+
+.activity .main .item h1{
+    font-size: 25px;
+}
+
+.activity .main .item p{
+    color: #b3b3b3;
+    line-height: 25px;
+}
+.activity .main .item a{
+    background-color: #e8e8e8;  
+    text-decoration: none;
+    padding: 12px 50px;
+    display: inline-block;
+    border-radius: 80px;
+    color: #8d8d8d;
+    font-size: large;
+}
+
+.activity .main button{
+    background-color: #f5efed;
+    margin: auto;
+    display: block;
+    color:rgb(245, 109, 60) ;
+    font-size: 15px;
+    border-radius: 100px;
+    border-color:rgb(245, 109, 60);
+    padding: 10px 70px 10px 70px;
+    cursor: pointer;
+}
+
+.contact{
+    padding: 80px 0;
+    height: 290px;
+    background-color:  #f6e4df;
+    color: #8d8d8d;
+    background-image: url(../img/mask.png);
+    background-size: cover ;
+    
+    
+}
+
+.contact .main .row .col {
+    float: left;
+    width: 50%;
+    padding-left: 30px;
+    /* padding: 0% 15px; */
+    box-sizing: border-box;
+}
+
+.contact .main .col{
+    float: right;
+}
+
+.contact .main i{
+    color: rgb(245, 109, 60);
+    font-size: 25px;
+    margin-right: 10px;
+}
+
+.contact .main .col .item p{
+    
+    font-size: large;
+}
+.contact .main .col h1{
+    margin-left: 30px;
+}
+
+.contact .main .col p{
+    margin-left: 30px;
+}
+
+
+
+.footer{
+    margin-top: 100px;
+    padding: 80px 0;
+    background-color:#f6e4df ;
+    height: 250px;
+    border-top-left-radius: 100px;
+    border-top-right-radius: 100px;
+}
+
+
+.footer .main .row .col_left{
+    float: left;
+    width: 40%;
+    box-sizing: border-box;
+    margin-right: 30px ;
+    margin-left: 30px;
+    line-height: 30px;
+    font-size: large;
+}
+
+.footer .main .row .col_right{
+    float: left;
+    width: 18%;
+    box-sizing: border-box;
+}
+
+.footer .main .footer_icon {
+    position: relative;
+    text-align: center;
+    padding-top: 20px;
+}
+
+
+
+.footer .main .footer_icon p{
+    display: inline-block;
+}
+
+.clear{
+    clear:both;
+}
